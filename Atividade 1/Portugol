@@ -1,0 +1,24 @@
+programa {
+        inteiro idade
+        inteiro meses
+	inteiro dias
+	inteiro horas
+	inteiro min
+	funcao inicio() {
+		escreva ("Bem vindo")
+		escreva ("Quantos anos você tem?")
+		leia (idade)
+		
+		meses = idade * 12
+        dias = idade * 365
+        horas = dias * 24
+        min = horas * 60
+        
+        escreva ("Voce esta vivendo ha:")
+        escreva ("Em Meses : " , meses)
+        escreva ("Em Dias : " , dias)
+        escreva ("Em Horas : " , horas , " h")
+        escreva ("Em Minutos : " , min , " min")
+        escreva (":)")
+	}
+}

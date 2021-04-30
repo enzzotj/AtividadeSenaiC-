@@ -1,0 +1,21 @@
+programa {
+    real sal
+    real salp
+    real aum
+    real total
+	funcao inicio() {
+		escreva("Insira o seu salário :")
+		leia(sal)
+		
+		se(500 >= sal){
+		    salp = 0.3
+            aum = salp * sal
+            total = aum + sal
+            escreva("Aumento do salário: ",total)
+		}
+		
+		senao{
+		    escreva("Seu salário não esta nos requisitos para ser aumentado :)")
+		}
+	}
+}

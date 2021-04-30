@@ -1,0 +1,47 @@
+programa {
+    inteiro idade
+	funcao inicio() {
+	    
+	    se (idade >= 5)
+            {
+                
+                escreva("Bem vindo ao campeonato de natação!\n")
+                escreva("Qual é a sua idade?")
+                leia(idade)
+                
+                se (idade >= 5) && (idade <= 7)
+                {
+                    escreva("Categoria   Idade")
+                    escreva("Infantil A    5 – 7 anos")
+                } senao
+                {
+                    se (idade >= 8 && idade <= 10)
+                    {
+                        escreva("Categoria    Idade")
+                        escreva("Infantil B   8 – 10 anos")
+                    }senao
+                    {
+                        se (idade >= 11 && idade <= 13)
+                        {
+                            escreva("Categoria    Idade")
+                            escreva("Juvenil A   11 – 13 anos")
+                        }senao
+                        {
+                            se (idade >= 14 && idade <= 17)
+                            {
+                                escreva("Categoria    Idade")
+                                escreva("Juvenil B    14 – 17 anos")
+                            }senao
+                            {
+                                    escreva("Categoria    Idade")
+                                    escreva("Sênior" , " Maiores de 18 anos")
+                            }
+                        }
+                    }
+                }
+            }senao
+            {
+                escreva("Sua idade não entra no requisito mínimo :(")
+            }
+	
+}

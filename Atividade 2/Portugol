@@ -1,0 +1,26 @@
+programa {
+    inteiro anon
+    inteiro ano
+    inteiro idade
+    inteiro meses
+	inteiro dias
+	inteiro diasb
+	inteiro sem
+	funcao inicio() {
+		escreva("Bem vindo")
+		escreva("Em qual ano você nasceu?")
+		leia(anon)
+		escreva("Em qual ano você está?")
+		leia(ano)
+		
+		idade = ano - anon
+        meses = idade * 12
+        diasb = idade / 4
+        dias = (meses * 365) + diasb
+        sem = meses * 4
+        escreva("Sua idade é: " , idade , " anos")
+        escreva("Sua idade convertida em semana:",sem)
+        escreva("Sua idade convertida dias:",dias)
+        escreva(":)")
+	}
+}
